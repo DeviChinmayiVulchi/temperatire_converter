@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="temp_converter.css" />
+    <title>TEMPERATURE CONVERTOR</title>
+</head>
+
+<body>
+    <div id="box">
+    <h1 id="headeris">Temperature Converter</h1>
+    <div id="main_div">
+
+        <div id="container">
+            <form name="convert" onsubmit="convert_temp();return false;">
+                <div id="column">
+                    <div id="row">
+                    <label>Degrees </label><br>
+                    <input type="text" id="temp" name="temp" >
+                    </div>
+                    
+                    <div id="row">
+                    <label>Type </label><br>
+                <select id="select_type" name="select_type" id="select_type">
+                    <optgroup label="Temperature">
+                    <option value="Celsius" name="celcius">Celcius</option>
+                    <option value="Fahrenheit" name="fahrenheit">Fahrenheit</option>
+                </optgroup>
+                </select>
+                    </div>
+                    </div>
+                <br>
+                <div id="row">
+                    <label>Result </label><br>
+                    
+                <div id="result">
+                    <span id="result_final"></span>
+                </div></div>
+                <br /><br />
+                <input type="submit" id="btn1" value="Change" />
+            </form>
+
+        </div>
+
+        
+    </div>
+</div>
+</body>
+<script src="temp_converter.js"></script>
+</html> 
+</head>

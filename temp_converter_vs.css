@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin-top: 30px;
+    height:100vh ;
+    width:90vw;
+    background-color: white;
+    
+}
+#box{
+    width:50%;
+    margin:auto;
+    border-radius: 30px;
+    border-style:solid;
+    background-color:skyblue;
+    box-shadow: rgba(0, 0, 0, 0.406) 0px 22px 70px 4px;
+}
+
+#main_div
+{
+    justify-content:center;
+    color: black;
+    height:80%;
+}
+
+#column{
+    display: flex;
+}
+#row{
+    font-weight: serif;
+}
+
+label{
+    font-weight: bold;
+    margin: 1rem 3rem;
+    font-size: large;
+
+}
+#headeris{
+    margin: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    height:16vh;
+    margin-top: 20px;
+    
+}
+
+#container{
+    margin-top: 20px;
+}
+
+input,select{
+    padding:3%;
+    margin: 1rem 3rem;
+    border-top: #000000;
+    border-left: #000000;
+    border-right: #000000;
+}
+#btn1{
+    
+    margin: 20px 70px;
+    padding:15px 55px;
+    background-color: green;
+    color:white;
+    font-weight: bold;
+    border:none;
+    font-size: 30px;
+    border-radius: 15px;
+    width: 450px;
+
+}
+
+#btn1:hover{
+    background-color: red;
+    color: #000000;
+}
+
+#result_final{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 31px;
+}
+#results{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+form{margin-top:20px;}
